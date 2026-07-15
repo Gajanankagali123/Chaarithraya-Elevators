@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chaarithraya Elevators Pvt. Ltd. — Precision Vertical Transportation</title>
+<meta name="description" content="Chaarithraya Elevators Private Limited — premium passenger, home, hospital and freight elevators engineered for safety, silence and longevity." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floor indicator rail (signature element) -->
+<aside class="rail" aria-hidden="true">
+  <div class="rail-track">
+    <div class="rail-fill" id="railFill"></div>
+  </div>
+  <ol class="rail-floors" id="railFloors">
+    <li data-target="hero"><span class="rail-num">06</span><span class="rail-label">Lobby</span></li>
+    <li data-target="stats"><span class="rail-num">05</span><span class="rail-label">Scale</span></li>
+    <li data-target="about"><span class="rail-num">04</span><span class="rail-label">About</span></li>
+    <li data-target="products"><span class="rail-num">03</span><span class="rail-label">Range</span></li>
+    <li data-target="projects"><span class="rail-num">02</span><span class="rail-label">Projects</span></li>
+    <li data-target="contact"><span class="rail-num">01</span><span class="rail-label">Contact</span></li>
+  </ol>
+</aside>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="brand">
+      <img src="images/logo.png" alt="Chaarithraya Elevators logo" class="brand-mark">
+      <span class="brand-name">Chaarithraya <em>Elevators</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-cta">Get a Quote</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-shaft" aria-hidden="true">
+      <div class="cable"></div>
+      <div class="door door-left"></div>
+      <div class="door door-right"></div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">Chaarithraya Elevators Private Limited</p>
+      <h1 class="hero-title">Precision engineered.<br>Vertically delivered.</h1>
+      <p class="hero-sub">We design, install and maintain passenger, home, hospital and freight elevators built for silence, safety and decades of service — for residences, hospitals, offices and industrial sites.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Request a Site Visit</a>
+        <a href="#products" class="btn btn-ghost">View Product Range</a>
+      </div>
+    </div>
+    <div class="hero-readout" aria-hidden="true">
+      <span id="floorReadout">06</span>
+      <small>Current Floor</small>
+    </div>
+    <a href="#stats" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="section-inner stats-grid">
+      <div class="stat">
+        <span class="stat-num" data-count="15">0</span><span class="stat-suffix">+</span>
+        <p>Years in vertical transportation</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="450">0</span><span class="stat-suffix">+</span>
+        <p>Elevators installed &amp; commissioned</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="30">0</span><span class="stat-suffix">+</span>
+        <p>Cities served across the region</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="99">0</span><span class="stat-suffix">.8%</span>
+        <p>Fleet uptime on maintained units</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-visual reveal">
+        <img src="images/about-cabin-interior.jpg" alt="Interior view of a modern elevator cabin with digital floor display" class="about-photo">
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">Who We Are</p>
+        <h2>Engineering movement, quietly.</h2>
+        <p>Chaarithraya Elevators Private Limited designs and manufactures vertical transportation systems for residential, commercial, healthcare and industrial buildings. Every installation is engineered around the building it serves — its traffic patterns, its shaft dimensions, its people.</p>
+        <p>Our in-house team handles design, manufacturing, installation and after-sales maintenance, so a single point of accountability follows the project from drawing board to handover, and beyond.</p>
+        <div class="about-points">
+          <div class="point"><span class="point-mark">01</span>In-house design &amp; manufacturing</div>
+          <div class="point"><span class="point-mark">02</span>Certified safety systems on every unit</div>
+          <div class="point"><span class="point-mark">03</span>Dedicated AMC &amp; 24×7 breakdown support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why" id="why">
+    <div class="section-inner">
+      <p class="eyebrow center">Why Chaarithraya</p>
+      <h2 class="center">Built for the life of the building</h2>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <svg class="why-icon" viewBox="0 0 48 48" fill="none"><path d="M24 4 8 11v10c0 11 7 18 16 23 9-5 16-12 16-23V11L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m17 24 5 5 9-11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Safety-first engineering</h3>
+          <p>Redundant braking, overload sensing and emergency rescue devices fitted as standard, not as an add-on.</p>
+        </div>
+        <div class="why-card reveal">
+          <svg class="why-icon" viewBox="0 0 48 48" fill="none"><path d="M8 40V18l16-10 16 10v22" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M18 40V26h12v14" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <h3>Built for your building</h3>
+          <p>Shaft, load and finish are custom-specified per site — retrofit or new construction.</p>
+        </div>
+        <div class="why-card reveal">
+          <svg class="why-icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>24×7 breakdown response</h3>
+          <p>A dedicated AMC team and service line, so downtime is measured in hours, not days.</p>
+        </div>
+        <div class="why-card reveal">
+          <svg class="why-icon" viewBox="0 0 48 48" fill="none"><path d="M6 34 18 22l8 8 16-16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 14h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Energy-efficient drives</h3>
+          <p>Regenerative drive options that cut power draw without compromising ride quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="section-inner">
+      <p class="eyebrow center">Product Range</p>
+      <h2 class="center">An elevator for every building</h2>
+      <div class="products-grid">
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/passenger-elevator.webp" alt="Passenger elevator in a marble lobby with brushed steel and gold finish"></div>
+          <h3>Passenger Elevators</h3>
+          <p>High-frequency, low-noise lifts for residential and commercial towers.</p>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/home-elevator.webp" alt="Compact glass home elevator installed in a residential living room"></div>
+          <h3>Home Elevators</h3>
+          <p>Compact, quiet lifts designed for duplexes, villas and bungalows.</p>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/hospital-elevator.jpg" alt="Hospital elevator cabin fitted with a wheelchair access ramp"></div>
+          <h3>Hospital Elevators</h3>
+          <p>Stretcher-sized cabins with smooth acceleration curves for patient comfort.</p>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/project-logistics-warehouse.jpg" alt="Aerial view of a logistics warehouse with loading docks and freight trucks"></div>
+          <h3>Freight Elevators</h3>
+          <p>Heavy-duty cars rated for industrial and warehouse loads.</p>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/escalator.jpg" alt="Modern escalator rising toward daylight in a commercial building"></div>
+          <h3>Escalators &amp; Travelators</h3>
+          <p>High-traffic solutions for malls, metros and transit hubs.</p>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-photo"><img src="images/panoramic-elevator.webp" alt="Modern glass-walled panoramic capsule elevator in a minimalist interior"></div>
+          <h3>Panoramic Capsule Lifts</h3>
+          <p>Glass-walled cabins built as an architectural statement for atriums.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow center">Selected Projects</p>
+      <h2 class="center">Installed, commissioned, running</h2>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-residential-tower.jpg" alt="Residential tower lobby with glass elevator and marble staircase"></div>
+          <div class="project-info"><h3>Residential Tower Lobby</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-boutique-office-atrium.jpg" alt="Boutique office atrium lobby with a central glass elevator shaft"></div>
+          <div class="project-info"><h3>Boutique Office Atrium</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-five-star-hotel.jpg" alt="Five-star hotel corridor with gold-trimmed marble elevator doors"></div>
+          <div class="project-info"><h3>Five-Star Hotel Wing</h3><span>Mysuru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-corporate-office.jpg" alt="Corporate office lobby with wood-panelled walls and a single elevator"></div>
+          <div class="project-info"><h3>Corporate Office Lobby</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-it-park.jpg" alt="IT park reception with white marble walls and twin elevators"></div>
+          <div class="project-info"><h3>IT Park Reception</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-office-complex.jpg" alt="Office complex corridor lined with wood-slat panels and multiple elevators"></div>
+          <div class="project-info"><h3>Premium Office Complex</h3><span>Hosur</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-heritage-hotel.jpg" alt="Heritage hotel corridor with brass-trimmed elevator doors and digital directory"></div>
+          <div class="project-info"><h3>Heritage Hotel Renovation</h3><span>Mysuru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-highrise-tower.jpg" alt="High-rise office tower elevator lobby with a floor-to-ceiling skyline view"></div>
+          <div class="project-info"><h3>High-Rise Office Tower</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-private-villa.jpg" alt="Private villa staircase with a compact gold-framed glass home elevator"></div>
+          <div class="project-info"><h3>Private Villa Installation</h3><span>Bengaluru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-commercial-plaza.jpg" alt="Commercial plaza lobby with granite walls and an open elevator entrance"></div>
+          <div class="project-info"><h3>Commercial Plaza</h3><span>Hosur</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-hospital.webp" alt="Multi-speciality hospital building exterior with glass facade"></div>
+          <div class="project-info"><h3>Multi-speciality Hospital</h3><span>Mysuru</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-logistics-warehouse.jpg" alt="Logistics warehouse with multiple loading docks and freight trucks"></div>
+          <div class="project-info"><h3>Logistics Warehouse</h3><span>Hosur</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual"><img src="images/project-green-residential.jpg" alt="High-rise green residential tower with planted balconies"></div>
+          <div class="project-info"><h3>Green Residential Tower</h3><span>Bengaluru</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-inner">
+      <p class="eyebrow center">Client Word</p>
+      <h2 class="center">What building owners say</h2>
+      <div class="quote-wrap">
+        <button class="quote-nav quote-prev" id="quotePrev" aria-label="Previous testimonial">&#8592;</button>
+        <div class="quote-track" id="quoteTrack">
+          <blockquote class="quote active">
+            <p>“Installation was finished ahead of schedule and the ride quality is noticeably smoother than our previous lift. Their AMC team responds within the hour.”</p>
+            <cite>Facilities Head, Residential Tower — Bengaluru</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“We needed a stretcher-rated cabin fitted into an existing shaft. Chaarithraya's engineers reworked the design twice until it fit our exact clearances.”</p>
+            <cite>Project Manager, Multi-speciality Hospital — Mysuru</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Five years in and breakdowns are close to zero. The maintenance reporting is clear and the technicians know our building well.”</p>
+            <cite>Facility Owner, Logistics Warehouse — Hosur</cite>
+          </blockquote>
+        </div>
+        <button class="quote-nav quote-next" id="quoteNext" aria-label="Next testimonial">&#8594;</button>
+      </div>
+      <div class="quote-dots" id="quoteDots"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-inner faq-grid">
+      <div>
+        <p class="eyebrow">Common Questions</p>
+        <h2>Before you call us</h2>
+        <p class="faq-sub">If your question isn't answered here, our team is a message away.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">How long does a typical installation take?<span class="faq-plus"></span></button>
+          <div class="faq-a"><p>Most residential installations take 4–6 weeks from shaft handover to commissioning, depending on floors served and cabin specification. We confirm an exact timeline after the site survey.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you retrofit lifts into existing buildings?<span class="faq-plus"></span></button>
+          <div class="faq-a"><p>Yes. We regularly design compact machine-room-less systems for buildings with limited shaft space, including bungalows and older constructions.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What does the AMC (maintenance contract) cover?<span class="faq-plus"></span></button>
+          <div class="faq-a"><p>Our AMC covers scheduled preventive maintenance, safety inspections, priority breakdown response, and discounted spare parts. Plans are tailored to usage intensity.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can you service elevators you didn't install?<span class="faq-plus"></span></button>
+          <div class="faq-a"><p>In most cases, yes — our technicians are trained across major elevator platforms. Share your make and model and we'll confirm compatibility.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="section-inner cta-inner">
+      <h2>Ready to move upward?</h2>
+      <p>Tell us about your building and we'll schedule a site survey within the week.</p>
+      <a href="#contact" class="btn btn-primary">Request a Site Visit</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>Let's talk about your building</h2>
+        <p>Share a few details and our engineering team will get back to you with next steps.</p>
+        <ul class="contact-list">
+          <li><strong>Phone</strong><span><a href="tel:+919742123838">+91 97421 23838</a></span></li>
+          <li><strong>WhatsApp</strong><span><a href="https://wa.me/919742123838" target="_blank" rel="noopener">+91 97421 23838</a></span></li>
+          <li><strong>Email</strong><span>info@chaarithrayaelevators.com</span></li>
+          <li><strong>Office</strong><span>Bengaluru, Karnataka, India</span></li>
+        </ul>
+        <div class="contact-map" id="contactMap">
+          <!-- TODO: replace with correct office location/embed -->
+          <iframe
+            title="Office location"
+            src="https://www.google.com/maps?q=Bengaluru,Karnataka,India&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <!-- TODO: connect to a real backend / email service (see setup notes) -->
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="type">Enquiry Type</label>
+          <select id="type" name="type">
+            <option>New Installation</option>
+            <option>AMC / Maintenance</option>
+            <option>Spare Parts</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Enquiry</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="brand">
+      <img src="images/logo.png" alt="Chaarithraya Elevators logo" class="brand-mark">
+      <span class="brand-name">Chaarithraya <em>Elevators</em></span>
+    </div>
+    <p>&copy; <span id="year"></span> Chaarithraya Elevators Private Limited. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919742123838" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor"><path d="M16.02 3C9.4 3 4 8.36 4 14.96c0 2.36.66 4.55 1.8 6.43L4 29l7.86-1.75a13.02 13.02 0 0 0 4.16.68c6.62 0 12.02-5.36 12.02-11.97C28.04 8.36 22.64 3 16.02 3Zm0 21.7c-1.4 0-2.76-.36-3.96-1.04l-.28-.16-4.66 1.04 1-4.5-.18-.3a9.62 9.62 0 0 1-1.5-5.18c0-5.35 4.37-9.7 9.78-9.7 5.4 0 9.78 4.35 9.78 9.7 0 5.35-4.38 9.14-9.98 9.14Zm5.36-7.28c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.66.15-.2.3-.76.96-.93 1.15-.17.2-.34.22-.63.08-.3-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.6-.9-2.2-.24-.57-.48-.5-.66-.5h-.56c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.5.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.4.24-.7.24-1.29.17-1.4-.07-.13-.27-.2-.56-.35Z"/></svg>
+</a>
+<script src="script.js"></script>
+</body>
+</html>
